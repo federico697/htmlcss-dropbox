@@ -22,7 +22,7 @@ nav{
     padding: 10px 0;
 }
 
-ul{
+.lista-nav{
     display: flex;
     justify-content: space-around;
 }
@@ -88,12 +88,47 @@ h2{
 }
 
 .cerchio{
-    height: 3px;
-    width: 3px;
     border-radius: 50%;
     border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.container-cerchi{
+    margin: 30px 0;
+    display: flex;
 }
 
 .cerchio-blu{
     border: 2px solid blue;
+}
+
+.text-cerchio{
+    padding-right: 20px;
+}
+
+.piani{
+    display: flex;
+    justify-content: space-between;
+}
+
+#piano1,
+#piano2,
+#piano3{
+    flex-basis: 32%;
+    background-color: rgb(177, 122, 122);
+    height: 500px;
+}
+
+.nome-piano{
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid lightgray;
+}
+
+#grigio{
+    color: rgb(77, 75, 75);
+}
+
+.container-piano{
+    padding: 0 30px;
 }
