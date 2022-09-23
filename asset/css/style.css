@@ -5,20 +5,21 @@
 }
 
 header{
-    height: 680px;
-    background-color: rgb(198, 159, 236);
+    height: 650px;
+    background-color: rgb(121, 121, 255);
 }
 
 nav{
     display: flex;
     width: 100%;
-    background: rgb(224, 187, 36);
+    background-color: white;
     justify-content: space-between;
+    z-index: 1;
+    position: fixed;
 }
 
 .box-nav{
     width: 30%;
-    background-color: gray;
     padding: 10px 0;
 }
 
@@ -30,12 +31,16 @@ nav{
 
 li{
     list-style: none;
+    line-height: 30px;
+}
+h4{
+    padding-bottom: 20px;
 }
 
 .container-head{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     /* background-color: aqua; */
 }
 
@@ -44,13 +49,21 @@ h1{
 }
 
 .contenuto-head{
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    padding-top: 60px;
 }
 
 .testo-head{
     flex-basis: 32%;
+}
+
+.btn-piano{
+    padding: 5px 5px;
+    background-color: blue;
+    color: white;
+    border: none;
 }
 
 .img-head{
@@ -76,15 +89,19 @@ h1{
 }
 
 section{
-    height: 1000px;
     width: 70%;
-    margin: 0 auto;
-    background-color: brown;
+    margin: 50px auto;
+    /* background-color: brown; */
+}
+
+.enterprice-3{
+    margin-bottom: 50px;
 }
 
 h2{
     padding-top: 80px;
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .cerchio{
@@ -115,8 +132,8 @@ h2{
 #piano2,
 #piano3{
     flex-basis: 32%;
-    background-color: rgb(177, 122, 122);
-    height: 500px;
+    /* background-color: rgb(177, 122, 122); */
+    /* height: 500px; */
 }
 
 .nome-piano{
@@ -127,8 +144,177 @@ h2{
 
 #grigio{
     color: rgb(77, 75, 75);
+    padding-bottom: 50px;
+}
+
+.info-piano{
+    padding-bottom: 20px;
+}
+
+.info-acquista{
+    padding: 20px 0;
+    padding-bottom: 50px;
 }
 
 .container-piano{
-    padding: 0 30px;
+    height: 750px;
+    padding: 40px 30px;
+    border: 1px solid lightgray;
+}
+
+.prezzo{
+    padding: 20px 0;
+}
+
+.enterprice-2{
+    width: 100%;
+    padding: 10px 0;
+    /* background-color: aqua; */
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.enterprice-3{
+    width: 100%;
+    padding: 30px 30px;
+    /* background-color: rgb(75, 129, 129); */
+    border: 1px solid lightgray;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#contatta-ufficio{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.btn-ent{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-img{
+    height: 500px;
+    /* background-color: red;  */
+    display: flex; 
+    justify-content: space-between;
+}
+
+.img-sec-2{
+    height: 500px;
+    flex-basis: 65%;
+    /* background-color: rgb(218, 124, 124); */
+    background-image: url('../img/partner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-sec-2{
+    height: 250px;
+    margin-top: 50px;
+    flex-basis: 33%;
+    /* background-color: rgb(218, 124, 124); */
+}
+
+h3{
+    font-size: 28px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.text-sec-2 p{
+    margin: 30px 0;
+
+}
+
+.btn-partner{
+    padding: 4px 8px;
+}
+
+.drop-bus{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.piani-bus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.piano-bus{
+    flex-basis: 32%;
+    height: 500px;
+    /* background-color: blue; */
+    margin-bottom: 20px;
+}
+
+.img-bus{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+}
+
+.img-1{
+    /* background-image: url('../img/business-feature-coordinate-it.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img-2{
+    /* background-image: url('../img/business-feature-integrations-it.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-3{
+    /* background-image: url('../img/business-feature-multi-device.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-4{
+    /* background-image: url('../img/business-feature-security.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-5{
+    /* background-image: url('../img/business-feature-send-files-it.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-6{
+    /* background-image: url('../img/business-feature-switching-tools.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
 }
