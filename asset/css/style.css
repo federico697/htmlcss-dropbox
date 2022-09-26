@@ -43,7 +43,6 @@ h4{
     width: 75%;
     margin: 0 auto;
     padding-top: 50px;
-    /* background-color: aqua; */
 }
 
 h1{
@@ -51,7 +50,6 @@ h1{
 }
 
 .contenuto-head{
-    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
@@ -71,7 +69,6 @@ h1{
 .img-head{
     flex-basis: 65%;
     height: 400px;
-    /* background-color: lightcoral; */
     background-image: url('../img/jumbo.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -93,7 +90,6 @@ h1{
 section{
     width: 70%;
     margin: 50px auto;
-    /* background-color: brown; */
 }
 
 .enterprice-3{
@@ -134,8 +130,6 @@ h2{
 #piano2,
 #piano3{
     flex-basis: 32%;
-    /* background-color: rgb(177, 122, 122); */
-    /* height: 500px; */
 }
 
 .nome-piano{
@@ -144,7 +138,7 @@ h2{
     border: 1px solid lightgray;
 }
 
-#grigio{
+.grigio{
     color: rgb(77, 75, 75);
     padding-bottom: 50px;
 }
@@ -171,7 +165,6 @@ h2{
 .enterprice-2{
     width: 100%;
     padding: 10px 0;
-    /* background-color: aqua; */
     text-align: center;
     border: 1px solid lightgray;
 }
@@ -179,7 +172,6 @@ h2{
 .enterprice-3{
     width: 100%;
     padding: 30px 30px;
-    /* background-color: rgb(75, 129, 129); */
     border: 1px solid lightgray;
     height: 250px;
     display: flex;
@@ -202,7 +194,6 @@ h2{
 
 .text-img{
     height: 500px;
-    /* background-color: red;  */
     display: flex; 
     justify-content: space-between;
 }
@@ -210,7 +201,6 @@ h2{
 .img-sec-2{
     height: 500px;
     flex-basis: 65%;
-    /* background-color: rgb(218, 124, 124); */
     background-image: url('../img/partner.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,7 +210,6 @@ h2{
     height: 250px;
     margin-top: 50px;
     flex-basis: 33%;
-    /* background-color: rgb(218, 124, 124); */
 }
 
 h3{
@@ -240,9 +229,7 @@ h3{
 
 .drop-bus{
     width: 100%;
-    /* height: 500px; */
     margin-top: 50px;
-    /* background-color: aqua; */
 }
 
 .text-center{
@@ -258,18 +245,15 @@ h3{
 .piano-bus{
     flex-basis: 32%;
     height: 500px;
-    /* background-color: blue; */
     margin-bottom: 20px;
 }
 
 .img-bus{
     width: 100%;
     height: 200px;
-    /* background-color: aqua; */
 }
 
 .img-1{
-    /* background-image: url('../img/business-feature-coordinate-it.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -277,7 +261,6 @@ h3{
     justify-content: center;
 }
 .img-2{
-    /* background-image: url('../img/business-feature-integrations-it.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -286,7 +269,6 @@ h3{
     
 }
 .img-3{
-    /* background-image: url('../img/business-feature-multi-device.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -295,7 +277,6 @@ h3{
     
 }
 .img-4{
-    /* background-image: url('../img/business-feature-security.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -304,7 +285,6 @@ h3{
     
 }
 .img-5{
-    /* background-image: url('../img/business-feature-send-files-it.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -313,7 +293,6 @@ h3{
     
 }
 .img-6{
-    /* background-image: url('../img/business-feature-switching-tools.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -331,44 +310,51 @@ h3{
 
 .loghi-1{
     width: calc(100% / 3);
-    /* background-color: blue; */
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 .logo-11{
     width: 50%;
-    background-color: rgb(9, 30, 7);
+    background-color: rgb(209, 209, 4);
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* filter: invert(1); */
 }
 
 .logo-b{
     height: 25%;
+    filter: invert(1);
 }
 .logo-b2{
     height: 5%;
+    filter: invert(1);
+}
+.logo-b3{
+    filter: invert(1);
 }
 
 .logo-12{
     width: 50%;
-    background-color: rgb(34, 42, 33);
+    background-color: rgb(73, 145, 218);
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* filter: invert(1); */
 }
 
 
 .logo-13{
     width: 50%;
-    background-color: rgb(187, 218, 184);
+    background-color: rgb(193, 0, 0);
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* filter: invert(1); */
 }
 .logo-14{
     width: 50%;
@@ -377,6 +363,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* filter: invert(1); */
 }
 
 
@@ -452,14 +439,12 @@ h5{
 #last-sec{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    /* height: calc(100vw / 3); */
     color: white;
 }
 #italiano,
 .last-container{
     width: 80%;
     margin: 0 auto;
-    /* height: calc(100vw / 3); */
     display: flex;
 }
 
@@ -473,5 +458,14 @@ h5{
     margin-bottom: 20px;
     font-size: 25px;
 }
+.check{
+    color: blue;
+}
 
+i{
+    font-size: 13px;
+}
 
+#freccia{
+    font-size: 50px;
+}
